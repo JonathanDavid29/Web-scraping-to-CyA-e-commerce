@@ -15,7 +15,8 @@ This project has the goal of scraping the website of C&amp;A, an online clothing
 
 ***
 
-## 🕷️ Spyder class
+## 🕷️ Spyder Class
+
 ````python
 import scrapy
 import json
@@ -80,4 +81,44 @@ class CyaspiderSpider(scrapy.Spider):
 
         # Returns the item
         yield article_item
+````
+
+***
+
+## 📦 Item Class
+
+````python
+import scrapy
+
+class CyascraperItem(scrapy.Item):
+    """
+    Defines the data model for the items extracted during scraping.
+    """
+    url = scrapy.Field()
+    name = scrapy.Field()
+    description = scrapy.Field()
+    sku = scrapy.Field()
+    image = scrapy.Field()
+    price_currency = scrapy.Field() # -> Offers
+    price = scrapy.Field()
+    availability = scrapy.Field()
+    
+````
+
+***
+
+## 🔃 Middlewares
+
+````python
+
+    
+````
+
+***
+
+## Pipeline
+
+````python
+
+    
 ````
