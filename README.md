@@ -4,6 +4,8 @@ This project has the goal of scraping the website of C&amp;A, an online clothing
 
 ![image](https://github.com/user-attachments/assets/b70615bf-fde3-4185-961e-7d4647884d61)
 
+## ✅ Result ✅
+![image](https://github.com/user-attachments/assets/7c1f60fe-31e8-47b9-8aed-4ef03b02b19e)
 
 ***
 
